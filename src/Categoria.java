@@ -16,7 +16,7 @@ public class Categoria {
         return this.Id;
     }
 
-    public String GetNomeProduto(){
+    public String getNomeProduto(){
         return this.NomeProduto;
     }
 
@@ -26,5 +26,6 @@ public class Categoria {
 
     public String getSetor(){
         return this.Setor;
+
     }
 }
