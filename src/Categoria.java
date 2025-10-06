@@ -1,13 +1,30 @@
 public class Categoria {
-        int Id;
-        String NomeProduto;
-        String Descricao;
-        String Setor;
+        private int Id;
+        private String NomeProduto;
+        private String Descricao;
+        private String Setor;
 
-        public Categoria (int id, String NomeProduto, String Descricao, String Setor) {
+        public Categoria (int Id, String NomeProduto, String Descricao, String Setor) {
             this.Id = Id;
             this.NomeProduto = NomeProduto;
             this.Descricao = Descricao;
             this.Setor = Setor;
+
         }
+
+    public int getId() {
+        return this.Id;
+    }
+
+    public String GetNomeProduto(){
+        return this.NomeProduto;
+    }
+
+    public String getDescricao(){
+        return this.Descricao;
+    }
+
+    public String getSetor(){
+        return this.Setor;
+    }
 }
